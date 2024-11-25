@@ -1,0 +1,23 @@
+body{
+
+    .rom{
+        font-family: sans-serif;
+        color: rgb(90, 86, 86);
+    }
+
+    .for{
+        color: rgb(0, 0, 0);
+    }
+
+    .dest{
+        color: rgb(240, 9, 9);
+    }
+    .fim{
+        font-family: sans-serif;
+        color: rgb(84, 50, 116);
+        text-align: center;
+
+    }
+
+    
+}

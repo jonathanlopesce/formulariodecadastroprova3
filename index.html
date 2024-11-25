@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(imagem/img.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <div class="rom">
+                <h1>Formulário de Cadastro</h1>
+            </div>
+        </center>
+    </header>
+        <nav class="for">
+            <form action="cadastro">
+                <label for="complemento">
+                     <i><b>Nome</b></i>
+                        <input type="text" name="checkbox" id="identficacao">
+                </label>
+            </form>
+    <br>
+            <form action="Email">
+                <label for="Email">
+                    <i><b>E-mail</b></i>
+                        <input type="email" name="email" id="identificacao">
+                </label>
+            </form>
+    <br>
+            <form action="Senha">
+                <label for="senha">
+                    <i><b>Senha</b></i>
+                        <input type="password" name="senha" id="acesso">
+                </label>
+            </form>
+    <br>
+        <section>
+            <h3>Selecione a sua Nacionalidade</h3>
+        </section>
+        <ul>
+                <li><i><b>Brasileiro</b></i><input type="checkbox" name="marcacao" id="confirmacao"></li>
+                <li><i><b>Estrageiro</b></i><input type="checkbox" name="marcacao" id="confirmacao"></li>
+        </ul>
+        <article>
+                <span class="dest">
+                <p><i>Marcando a segunda opção coloque qual pais é sua nacionalidade </i></p>
+                </span>
+        </article>
+        <input type="text" name="pais" id="estrageiro">
+    <br>
+    <br>
+            <form action="mensagem">
+                <label for="discricao">
+                    <i><b>Deixe sua Mensagem </b></i>
+                </label>
+            </form>
+                <textarea name="descricao" id="mensagem"></textarea>
+        </nav>
+    <br>
+    <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+    <br>
+    <footer class=" fim">
+            <p><i>2024</i></p>
+    </footer>   
+</body>
+</html>
